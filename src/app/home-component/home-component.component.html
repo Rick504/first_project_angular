@@ -1,2 +1,10 @@
 <h1>Home</h1>
-<a class="btn btn-primary" routerLink="/first"> Component first</a>
+<a routerLink="/first"> Component first</a><br><br>
+
+
+<div class="border border-3 pt-3 pb-3">
+  Usanto gerenciamento de estado com rxjs
+  <p>Counter: {{ state?.counter }}</p>
+  <button class="btn btn-success" (click)="updateState()">Increment Counter</button>
+
+</div>
